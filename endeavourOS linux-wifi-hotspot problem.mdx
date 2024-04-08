@@ -12,13 +12,15 @@ Today am planning to do a simple guide because one of my friends asked to. It's 
 
 Without further ado, let's deep dive into the content.
 
-So as I said in the title, this is a comprehensive guide to enable wifi hotspot from your laptop running in linux. In my case, I use [EndeavourOS](https://endeavouros.com/) which one of the friendly arch-based distros available.
+So as I said in the title, this is a comprehensive guide to enable wifi hotspot from your laptop running in linux. In my case, I use [EndeavourOS](https://endeavouros.com/) which one of the friendly arch-based distros available out there.
 
-Disclaimer, I'm still a noob on this linux distro – workspace world, so everything that I did are based on forum discussions, documentations, and every source available on the internet. I haven't got the time to fully delve into the linux operating system to understand everything that happens behind the process. I will tell my short journey to solve the problems that I've encountered to enable this feature in linux.
+Disclaimer, I'm still a noob on this linux distro – workspace world, so everything that I did are based on forum discussions, documentations, and every source available on the internet. I haven't got the time to fully delve into the linux operating system to understand everything that happens behind the process. In this post, I will tell my short journey to solve the problems that I've encountered to enable this feature in linux.
 
-So at first, I just simply google "hotspot arch" and stumbled upon a [arch linux wiki page](https://wiki.archlinux.org/title/software_access_point) discussing about software access point. As I read the wiki, I see the available tools that can achieve hotspot feature and that the tools are:
+So at first, I just simply google "hotspot arch" and stumbled upon a [arch linux wiki page](https://wiki.archlinux.org/title/software_access_point) discussing about software access point. As I read the wiki, I see the available tools that can achieve hotspot feature and the tools are:
+
 1. linux-wifi-hotspot
 2. RADIUS
+
 I only explored on the linux-wifi-tools package because I see it well-maintained on the github repo. The commits are just some few weeks ago.
 
 Without questioning any further, I install that package with `yay -S linux-wifi-hotspot` and enter all the necessary prompt and everything.
